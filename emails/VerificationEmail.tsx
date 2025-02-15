@@ -19,7 +19,7 @@ export const EmailVerification = ({
   token: string;
   name: string;
 }) => {
-  const baseUrl = `https://finflow.divyanshulohani.xyz`;
+  const baseUrl = `https://test.domain.xyz`;
   const verificationUrl = `${baseUrl}/auth/verify?token=${token}`;
 
   return (
